@@ -1,0 +1,66 @@
+.form {
+  background-color: #eee;
+  border-radius: 7px;
+  margin: 20px 30px;
+  padding: 25px;
+  min-height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.form .input {
+  margin-right: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 22px;
+  width: auto;
+  flex-grow: 1;
+  padding: 15px;
+}
+.form .input:focus {
+  outline: none !important;
+}
+.form .add {
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  padding: 15px 20px;
+  border: none;
+}
+.form .add:hover {
+  cursor: pointer;
+}
+
+.tasks {
+  background-color: #eee;
+  border-radius: 7px;
+  margin: 20px 30px;
+  padding: 25px 25px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.tasks .taskItem {
+  background-color: white;
+  padding: 15px;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasks .delete {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 3px 10px;
+}
+.tasks .delete:hover {
+  cursor: pointer;
+}
